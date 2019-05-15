@@ -1,16 +1,16 @@
-<suite name="Grid Demo Suite" parallel="tests">
+<suite name="Grid Demo Suite" parallel="none">
   
   <test name="Login on Firefox" >
    <parameter name="browser"  value="firefox" />
     <classes>
-	   <class name="grid.Grid" />
+	   <class name="com.vasu.grid.Grid" />
     </classes>
   </test>
  
   <test name="Login on Chrome" >
    <parameter name="browser"  value="chrome" />
     <classes>
-	   <class name="grid.Grid" />
+	   <class name="com.vasu.grid.Grid" />
 	   
     </classes>
   </test>
