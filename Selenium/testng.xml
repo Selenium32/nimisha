@@ -1,0 +1,12 @@
+
+<suite name="vasu">
+  <test thread-count="5" name="smoke">
+    <classes>
+      <class name="com.vasu.testng.EmpList"/>
+      
+      <class name="com.vasu.testng.EmpReg"/>
+      
+      
+    </classes>
+  </test> 
+</suite> 
